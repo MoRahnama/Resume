@@ -1,0 +1,104 @@
+/*
+---------------------------------------------------------------------------------
+	STRIPPED DOWN RESUME TEMPLATE
+    html resume
+
+    v0.9: 5/28/09
+
+    design and code by: thingsthatarebrown.com 
+                        (matt brown)
+---------------------------------------------------------------------------------
+*/
+.msg { padding: 10px; background: #222; position: relative; }
+.msg h1 { color: #fff;  background: #d9edfc}
+.msg a { margin-left: 20px; background: #408814; color: white; padding: 4px 8px; text-decoration: none; }
+.msg a:hover { background: #266400; }
+
+/* //-- yui-grids style overrides -- */
+body { font-family: 'Helvetica Neue', Helvetica, Arial; color: #004c75; background: #d9edfc; width: 100%; margin: 0;}
+#inner { padding: 10px 30px; margin: 80px auto; background: #f4f8fc; border: solid #004892; border-width: 12px 0 2px 0; }
+.yui-gf { margin-bottom: 1em; padding-bottom: 1em; border-bottom: 1px solid #43c838; }
+
+/* //-- header, body, footer -- */
+#hd { margin: 1.5em 0 1em 0; padding-bottom: 1.5em; border-bottom: 1px solid #43c838}
+#hd h2 {  letter-spacing: 2px; text-align: left;}
+#bd, #ft { margin-bottom: 1em; }
+
+/* //-- footer -- */
+#ft { padding: 1em 0 1em 0; font-size: 92%; border-top: 1px solid #43c838; text-align: center; }
+#ft p { margin-bottom: 0; text-align: center;   }
+
+/* //-- core typography and style -- */
+#hd h1 { font-size: 40px; letter-spacing: 1px; margin-top: 18px; text-align: left;  }
+h2 { font-size: 152%;}
+h3, h4 { font-size: 122%; }
+h1, h2, h3, h4 { color: #004c75; }
+p { font-size: 100%; line-height: 18px; padding-right: 3em; }
+a { color: #004c75 }
+a:hover { text-decoration: none; }
+strong { font-weight: bold; }
+li { line-height: 24px; border-bottom: 1px solid #43c838; }
+p.enlarge { font-size: 144%; padding-right: 0; line-height: 24px; text-align: justify; width: 96%;}
+p.enlarge span { color: #000 }
+.contact-info { margin-top: 10px; float: right; text-align: justify; }
+.first h2 { font-style: italic; text-align: center;}
+.last { border-bottom: 0 }
+
+
+/* //-- section styles -- */
+
+a#pdf { display: block; float: right; background: #6ace26; color: #ffffff; padding: 10px 20px 10px 20px; margin-bottom: 6px; margin-top: 20px; text-decoration: none; text-align: center; }
+a#pdf:hover { background: #222; }
+
+.job { position: relative; margin-bottom: 0.5em; padding-bottom: 1em; border-bottom: 1px solid #43c838; }
+.job h4 { position: absolute; top: 0.35em; right: 0 }
+.job p { margin: 0.75em 0 3em 0; text-align: justify;}
+.job li {text-align: justify;}
+
+.education { position: relative; margin-bottom: 0.5em; padding-bottom: 1em; border-bottom: 1px solid #43c838; }
+.education h4 { position: absolute; top: 0.35em; right: 0 }
+.education p { margin: 0.75em 0 3em 0; text-align: justify;}
+
+.project { position: relative; margin-bottom: 0.5em; padding-bottom: 1em; border-bottom: 1px solid #43c838; }
+.project h4 { position: absolute; top: 0.35em; right: 0 }
+.project p { margin: 0.75em 0 0.5em 0; text-align: justify;}
+
+.last { border: none; }
+.skills-list { width: 100% ; float: left; text-align: justify;}
+.skills-list ul { margin: 0 }
+.skills-list li { margin: 3px 0; padding: 3px 0; text-align: justify;}
+.skills-list li span { font-size: 155%; display: block; margin-bottom: -2px; padding: 0 }
+
+.talent { width: 95% ; float:left ; text-align: justify;}
+.talent h2 { margin-bottom: 6px; margin-right: 15px;}
+
+#srt-ttab { margin-bottom: 100px; text-align: center;  }
+#srt-ttab img.last { margin-top: 20px }
+
+/* --// override to force 1/8th width grids -- */
+.yui-gf .yui-u{width:80.2%;}
+.yui-gf div.first{width:12.3%;}
+
+#photo {
+    width: 157px;
+    height: 200px;
+    overflow: hidden;
+    float: left;
+    margin-top: 8px;
+    margin-right: 8px;
+    border-radius: 4px;
+}
+#photo img {
+    width: 100%;
+    height: auto;
+}
+
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
+
+
