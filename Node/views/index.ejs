@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= resume.name %> - Resume</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1><%= resume.name %></h1>
+        <h2><%= resume.title %></h2>
+        <div class="contact-info">
+            <span><i class="fa-solid fa-envelope"></i> <a href="mailto:<%= resume.contact.email %>"><%= resume.contact.email %></a></span>
+            <span><i class="fa-solid fa-phone"></i> <a href="tel:<%= resume.contact.phone %>"><%= resume.contact.phone %></a></span>
+            <span><i class="fab fa-linkedin"></i> <a href="<%= resume.contact.linkedin %>" target="_blank">LinkedIn</a></span>
+            <span><i class="fab fa-github"></i> <a href="<%= resume.contact.github %>" target="_blank">GitHub</a></span>
+            <span><i class="fa-solid fa-location-dot"></i> <%= resume.contact.location %></span>
+        </div>
+    </header>
+        
+
+    <section>
+        <h3>📝 Profile</h3>
+        <p><%= resume.profile %></p>
+    </section>
+
+    <section>
+        <h3>💼 Experience</h3>
+        <ul>
+            <% resume.experience.forEach(function(job) { %>
+                <li>
+                    <h4 class="experience-header"><%= job.position %>, <%= job.company %> (<%= job.duration %>)</h4>
+                    
+                    <!-- Responsibilities Section -->
+                    <h5>Responsibilities:</h5>
+                    <ul class="responsibilities">
+                        <% job.responsibilities.slice(0, 4).forEach(function(responsibility) { %>
+                            <li><%= responsibility %></li>
+                        <% }); %>
+                    </ul>
+    
+                    <!-- Achievements Section -->
+                    <h5>Achievements:</h5>
+                    <ul class="achievements">
+                        <% job.achievements.slice(0, 3).forEach(function(achievement) { %>
+                            <li><%= achievement %></li>
+                        <% }); %>
+                    </ul>
+                </li>
+            <% }); %>
+        </ul>
+    </section>    
+
+    <section>
+        <h3>🛠️ Skills</h3>
+        <ul>
+            <% for (const category in resume.skills) { %>
+                <li>
+                    <strong><%= category %>:</strong>
+                    <span>Tools: <%= resume.skills[category].Tools ? resume.skills[category].Tools.join(", ") : 'N/A' %></span> |
+                    <span>Languages: <%= resume.skills[category].Languages ? resume.skills[category].Languages.join(", ") : 'N/A' %></span>
+                </li>
+            <% } %>
+        </ul>
+    </section>
+
+    <section>
+        <h3>📚 Education</h3>
+        <ul>
+            <% resume.education.slice(0, 3).forEach(function(edu) { %>
+                <li><%= edu.degree %>, <%= edu.institution %> (<%= edu.duration %>)</li>
+            <% }); %>
+        </ul>
+    </section>
+
+    <section>
+        <h3>🎖️ Certifications</h3>
+        <ul>
+            <% resume.certifications.slice(0, 1).forEach(function(cert) { %>
+                <li><%= cert.title %> (<%= cert.organization %>, <%= cert.duration %>)</li>
+            <% }); %>
+        </ul>
+    </section>
+</body>
+</html>

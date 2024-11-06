@@ -1,0 +1,165 @@
+{
+    "name": "Mohammadali Rahnama",
+    "title": "Computer Engineer with Strong Testing & Automation Background",
+    "contact": {
+      "email": "mo@rahnama.uk",
+      "phone": "+1(506)400-0402",
+      "linkedin": "https://www.linkedin.com/in/mohammadali-rahnama-4170b0a9/",
+      "github": "https://github.com/morahnama",
+      "location": "Fredericton, NB, Canada"
+    },
+    "profile": "Dedicated computer engineer with extensive testing and automation experience. Educated in various levels of computer engineering and science. Experienced in working with Agile methodology and practices, with a strong background in software quality assurance and development. Exceptional analytical, evaluative, and perceptual skills, with excellent communication and problem-solving abilities.",
+    "experience": [
+  {
+    "position": "Quality Assurance Specialist",
+    "company": "Siemens Canada Limited",
+    "duration": "06/2023 - Present",
+    "location": "Fredericton, New Brunswick, Canada",
+    "responsibilities": [
+      "Collaborated with a multinational team employing SAFe® methodologies to improve software quality.",
+      "Designed and implemented 300+ automated test cases for both UI and API, ensuring robust testing across all features.",
+      "Optimized the testing process by automating dummy data generation, significantly reducing manual testing efforts.",
+      "Analyzed 500+ test execution results to identify issues and collaborate with team members to ensure timely resolution.",
+      "Maintained thorough documentation of test processes and results to support quality assurance practices within the team."
+    ],
+    "achievements": [
+      "Automated Fleet Management features, boosting testing efficiency and reducing cycle times.",
+      "Expanded UI and API automation, increasing overall project quality and reliability.",
+      "Reduced pipeline execution time by 66%, from 3 hours to 1 hour.",
+      "Increased automation coverage to over 90%, advancing towards full automation."
+    ]
+  },
+  {
+    "position": "Software Tester, Co-op",
+    "company": "Siemens Canada Limited",
+    "duration": "09/2021 - 09/2022",
+    "location": "Fredericton, New Brunswick, Canada",
+    "responsibilities": [
+      "Executed and analyzed 200+ manual and automated test cases, leading to swift rectification of software issues.",
+      "Updated and evaluated 100+ product documentations, ensuring precision and relevance.",
+      "Reported 50+ software bugs and errors promptly to the development team, minimizing potential software malfunctions.",
+      "Collaborated with team leads and developers to design 20+ test strategies and plans, enhancing overall efficiency.",
+      "Worked with developers in 20+ bug troubleshooting cases, expediting root cause analysis.",
+      "Conducted rigorous pre-release testing, ensuring the software met high-quality standards."
+    ],
+    "achievements": [
+      "Supported quality standards in cross-functional teams across the software lifecycle.",
+      "Received recognition for outstanding co-op performance with a formal commendation.",
+      "Completed Certified SAFe® 5 Practitioner training, enhancing agile team capabilities."
+    ]
+  },
+  {
+    "position": "Founder (Web/Graphic Designer)",
+    "company": "Picasso Art Gallery / Chop30",
+    "duration": "10/2017 - 10/2020",
+    "location": "Kerman, Kerman, Iran",
+    "responsibilities": [
+      "Developed and launched a full-featured online printing platform, providing a comprehensive digital service.",
+      "Established an online art gallery, enabling easy browsing and purchasing experience for 1000+ high-quality artworks.",
+      "Overcame various business obstacles using a proactive and persistent approach, leveraging problem-solving skills.",
+      "Created 100+ visual elements, such as logos and images, which contributed to the unique and attractive user interfaces.",
+      "Maintained and updated the content management systems of the websites, ensuring they remained current and user-friendly."
+    ],
+    "achievements": [
+      "Registered a unique brand by 2018, securing a strong market presence (Brand ID: 139750140001060310).",
+      "Negotiated partnerships, establishing beneficial collaborations across business phases.",
+      "Drove consistent revenue growth, expanding both businesses by 25% through quality services."
+    ]
+  }
+],
+    "skills": {
+      "Software Testing": {
+        "Tools": ["Cypress", "Selenium", "PyTest", "JUnit", "TestNG"],
+        "Languages": ["JavaScript", "Python", "Java"]
+      },
+      "Database Management": {
+        "Tools": ["MySQL", "MongoDB", "Amazon Redshift", "PostgreSQL", "Oracle", "Redis"],
+        "Languages": ["SQL", "NoSQL"]
+      },
+      "Web Development": {
+        "Tools": ["HTML", "CSS", "JavaScript", "React", "Redux", "Git", "GitHub", "Heroku", "Node.js", "Express.js", "Bootstrap", "Material UI"],
+        "Languages": ["JavaScript", "HTML", "CSS"]
+      },
+      "Data Analysis & Visualization": {
+        "Tools": ["Pandas", "Numpy", "Matplotlib", "Seaborn", "Plotly", "Tableau", "RStudio"],
+        "Languages": ["Python", "R"]
+      },
+      "Cloud Computing": {
+        "Tools": ["AWS", "Google Cloud Platform", "Microsoft Azure"]
+      },
+      "Project Management": {
+        "Tools": ["Trello", "Jira", "GitHub Projects"]
+      }
+    },
+    "projects": [
+      {
+        "title": "On-call Tracking System",
+        "institution": "University of New Brunswick",
+        "duration": "09/2022 - 01/2023",
+        "description": "Served as the Product Owner in a collaborative team of 10 students. Held 20+ meetings with the client to identify user stories, generated additional stories and added acceptance tests."
+      },
+      {
+        "title": "Database vs Data Warehouse, A Cloud-based Benchmarking Platform for IoT Big Data",
+        "institution": "University of New Brunswick",
+        "duration": "01/2021 - 05/2021",
+        "description": "Created an extensible cloud-based benchmarking platform for IoT data warehousing. Evaluated the performance of PostgreSQL, MongoDB, and Amazon Redshift Data Warehouse."
+      },
+      {
+        "title": "Is there a correlation between life expectancy and Gross Domestic Product (GDP) per capita of countries in the UN?",
+        "institution": "University of Hertfordshire",
+        "duration": "09/2020 - 01/2021",
+        "description": "Analyzed the correlation between GDP per capita and life expectancy for 193 UN member states using statistical analysis capabilities of R."
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master of Computer Science",
+        "institution": "University of New Brunswick",
+        "duration": "2021 - 2023"
+      },
+      {
+        "degree": "Postgraduate Certificate of Advanced Computer Science",
+        "institution": "University of Hertfordshire",
+        "duration": "2020 - 2021"
+      },
+      {
+        "degree": "Bachelor of Software Engineering",
+        "institution": "Shahid Bahonar University of Kerman",
+        "duration": "2012 - 2016"
+      },
+      {
+        "degree": "Master of Computer Architecture Engineering",
+        "institution": "Shahid Bahonar University of Kerman",
+        "duration": "2016 - 2019"
+      }
+    ],
+    "certifications": [
+      {
+        "title": "Certified SAFe® 5 Practitioner",
+        "organization": "Scaled Agile, Inc",
+        "duration": "Date Issued: 01/2022",
+        "credentialId": "51657319-0819"
+      },
+      {
+        "title": "Pilot Certificate – Small Remotely Piloted Aircraft (VLOS)",
+        "organization": "Transport Canada",
+        "duration": "02/2022 - Present",
+        "credentialId": "PC2205000163"
+      }
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Full professional proficiency"
+      },
+      {
+        "language": "Persian",
+        "proficiency": "Native proficiency"
+      },
+      {
+        "language": "Arabic",
+        "proficiency": "Elementary proficiency"
+      }
+    ]
+  }
+  
